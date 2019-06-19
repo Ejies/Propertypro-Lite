@@ -1,0 +1,159 @@
+body{
+    background-color: #fff;
+    font-family: roboto;
+    margin: 0;
+}
+
+.left-container{
+    float:left;
+    width: 50%;
+}
+.right-container{
+    float: right;
+    width:50%;
+    background-image: url('../images/background-img.jpg');
+    height: 100vh;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.header-logo{
+    display: inline-block;
+}
+.header-logo img{
+    width: 200px;
+    margin-top: -20px;
+    padding-right: 0;
+}
+
+.header-nav nav{
+    grid-area: nav;
+    justify-self: end;
+    align-self: right;
+  }
+  .header-nav nav ul{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 5px 5px;
+    float: center;
+    margin-top: -155px;
+    margin-left: 30%;
+  }
+  .header-nav nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+  }
+  .header-nav nav ul li a {
+    font-size:15px;
+    color: #111;
+    text-transform: uppercase;
+    color: #000;
+  }
+  .right-header-nav nav ul{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 5px 5px;
+    float: right;
+    margin-top: 30px;
+   
+  }
+  .right-header-nav nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+  }
+  .right-header-nav nav ul li a {
+    font-size:15px;
+    color: #111;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+  }
+  .icon-phone{
+    
+  }
+  .login-btn{
+      display: block;
+      width:fit-content;
+      padding:10px 10px !important;
+      border-radius: 30%;
+      background-color: #38b6ff;
+      margin-right: 10px;
+      margin-left: 150px;
+  }
+  .lgnbtn{
+      
+  }
+  .login-btn:hover{
+      background-color: #72cafd;
+  }
+  .body-container{
+    margin-left: 30%;
+    margin-top: 20%;
+    color: #000;
+    display: block;
+    width: fit-content;
+    padding: 16px 0;
+    float: left;  
+  }
+  .body-container h1{
+    font-size: 40px;
+    margin: 0;
+    margin-left: 20px;
+  }
+  .body-container h2{
+    font-size: 15px;
+    margin: 0;
+    font-weight: 100;
+    margin-top:12px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
+  
+  .body-container input[type=text]{
+    width: 270px;
+    height: 38px;
+    margin-left: 20px;
+    margin-top: 25px;
+    outline: none;
+    box-shadow: 0 0 8px rgba(232, 232, 232, 1);
+    border: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    /* height: 20px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+    position: relative;
+    z-index: 2;
+    margin-left: 20px; */
+    
+}
+.searchbtn{
+    height: 45px;
+     width: 50px;
+    /* height: 40px;*/ 
+    padding: 10px;
+    margin-left:-5px; 
+    background-color: #38b6ff;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 8px rgba(232, 232, 232, 1);
+    border: 0;
+    cursor: pointer;
+
+}
+.searchbtn:hover{
+    background-color: #72cafd;
+   
+}
+.search-icon{
+    display: block;
+    background-image: url('../UI/asset/images/search-img.png');
+    width: 50px;
+    height: 50px;
+}
+.main-content{
+ 
+}
